@@ -1,0 +1,100 @@
+:root {
+  --cor0: #023859;
+  --cor1: #0367a6;
+  --cor2: #05dbf2;
+  --cor3: #011826;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: var(--cor0);
+}
+h1 {
+  color: var(--cor0);
+  text-align: center;
+}
+h2 {
+  color: var(--cor0);
+  text-align: center;
+ 
+}
+
+aside {
+  background-color: var(--cor2);
+  padding: 10px;
+  margin: 8px;
+
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+
+#rodape{
+  text-align: center;
+  color: #000;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 0px;
+  margin: 0px;
+}
+main {
+  background-color: white;
+
+  padding: 20px;
+  padding-bottom: 8px;
+
+  max-width: 500px;
+  min-width: 250px;
+
+  margin: auto;
+  margin-top: 20px;
+
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px black;
+}
+
+p {
+  text-align: justify;
+  
+}
+
+
+img {
+  display: block;
+  width: 60px;
+  float: left;
+  margin: 10px;
+}
+
+p > a {
+  color: #0367a6;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+p > a:hover {
+  background-color: #0367a6;
+}
+a.externo::after {
+  content: '\00A0\1F517';
+}
+
+a:visited{
+ color: var(--cor3);
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--cor3);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #05dbf2;
+}
+
+#perfil{
+  font-weight: bold;
+  
+}
